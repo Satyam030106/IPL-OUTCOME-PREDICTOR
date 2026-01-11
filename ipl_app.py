@@ -47,7 +47,7 @@ prediction_mode = st.sidebar.radio(
 st.sidebar.markdown("---")
 
 if prediction_mode == "First Inning Score Prediction":
-    banner_path = r"C:\Users\Satyam Singh\Desktop\fastapi\projectipl\ipl2.jpeg"
+    banner_path = r"ipl2.jpeg"
     st.image(banner_path, width=800)
     st.header("First Inning Score Prediction")
     col1, col2 = st.columns(2)
@@ -103,7 +103,7 @@ if prediction_mode == "First Inning Score Prediction":
                 st.error(f"Error in prediction: {e}")
 
 if prediction_mode == "Match Winner Prediction(Target Chasing)":
-    banner_path = r"C:\Users\Satyam Singh\Desktop\fastapi\projectipl\ipl1.jpeg"
+    banner_path = r"ipl1.jpeg"
     st.image(banner_path, width=800)
     st.header("Match Winner Prediction (Target Chasing)")
     
